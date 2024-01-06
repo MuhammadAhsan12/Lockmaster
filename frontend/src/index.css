@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(238, 238, 238); 
+  background-color: #eaeaea;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #454545; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 15, 15); 
+}
+.h1_main {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0px;
+  font-family: 'Mulish', sans-serif;
+}
+.h2_main {
+  font-size: 18px;
+  font-weight: 900;
+  margin: 0px;
+  font-family: 'Mulish', sans-serif;
+}
+.h3_main {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px;
+  font-family: 'Mulish', sans-serif;
+}
+.h4_main {
+  font-size: 14px;
+  margin: 0px;
+  font-family: 'Mulish', sans-serif;
+}
+.h6_main {
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0px;
+  color: #717171;
+  font-family: 'Mulish', sans-serif;
+}
+.para_main{
+  margin: 0;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  color: #7F7F7F;
+  font-size: 15px;
+}
+.button_main{
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid #2ec0be;
+  padding:  8px 0px 8px 0px;
+  border-radius: 4px;
+}
+@media (max-width: 992px) {
+  .h2_main {
+    font-size: 16px;
+  }
+  .h4_main {
+    font-size: 12px;
+  }
+}

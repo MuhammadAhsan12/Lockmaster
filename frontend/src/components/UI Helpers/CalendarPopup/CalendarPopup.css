@@ -1,0 +1,25 @@
+.calendarCont .react-calendar {
+  width: 70%;
+  border: 1px solid transparent;
+  border-right: 1px solid rgb(186, 186, 186);
+  height: 318px;
+}
+.calendarCont .react-calendar__navigation__next2-button {
+  display: none;
+}
+.calendarCont .react-calendar__navigation__prev2-button {
+  display: none;
+}
+.calendarCont .react-calendar__tile {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  border-radius: 4px;
+}
+.calendarCont .react-calendar__year-view__months__month {
+  padding: 15px;
+  margin: 0;
+}
+.calendarCont .react-calendar__month-view__weekdays__weekday--weekend abbr {
+  border-bottom: 1px solid black;
+}

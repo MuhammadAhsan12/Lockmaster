@@ -1,0 +1,82 @@
+.main {
+  width: 100%;
+  height: 92vh;
+  padding: 40px 30px 0px 60px;
+}
+.profileImg {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.camera {
+  width: 50px;
+  height: 50px;
+  background-color: #67d1ab;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.form {
+  width: 100%;
+}
+.row, .buttonRow {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 35px;
+}
+.buttonRow{
+  padding-top: 20px;
+  gap: 20px;
+}
+.formGroup {
+  width: 38%;
+}
+.formGroup input {
+  border-radius: 3px;
+  width: 100%;
+}
+.formGroup input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #2D8FC5;
+}
+.formGroup input::placeholder {
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+}
+.formGroup label {
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+}
+.buttonRow button{
+  width: 220px;
+}
+.cancel{
+  color: #2ec0be;
+}
+.saveChanges {
+  background-image: linear-gradient(to right, #1fbbc2, #67d1ab);
+  color: white;
+}
+.change {
+  align-self: flex-end;
+  margin-bottom: 6px;
+  background-color: transparent;
+  color: #2ec0be;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+}

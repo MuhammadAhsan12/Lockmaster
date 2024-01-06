@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  user-select: none;
+  padding-right: 30px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+}
+.box img {
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.number {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.number:hover{
+  background-color: rgb(236, 236, 236);
+}
+.numberActive {
+  background-image: linear-gradient(to right, #1f84c2, #67bed1);
+}
+.numberActive h3 {
+  color: white;
+}

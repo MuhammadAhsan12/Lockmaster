@@ -1,0 +1,122 @@
+.main {
+  width: 20vw;
+  height: 92vh;
+  max-width: 250px;
+  user-select: none;
+}
+.inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 10px 30px 12px;
+  border-right: 1px solid rgb(228, 228, 228);
+  overflow: auto;
+}
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.profile img {
+  width: 60px;
+  height: 60px;
+}
+.profile div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.profile div h2,
+h6 {
+  align-self: flex-start;
+  text-align: start;
+}
+.tabs {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.tab {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  padding: 22px 15px 22px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tab h3 {
+  color: black;
+}
+.tab img {
+  width: 20px;
+  height: 20px;
+}
+.tabActive {
+  background-image: linear-gradient(to right, #1f84c2, #67bed1);
+}
+.tabActive h3 {
+  color: white;
+}
+.logout {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  padding: 0px 0px 20px 20px;
+}
+.subItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 20px 0px 28px 15px;
+  gap: 16px;
+}
+.subItem a {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: black;
+}
+.bulletPoint {
+  width: 13px;
+  height: 13px;
+  background-color: #67d1ab;
+  border-radius: 50%;
+}
+.subItem a h3 {
+  width: 90%;
+}
+@media(max-width:1400px){
+  .main {
+    width: 35vw;
+  }
+}
+@media(max-height:760px){
+  .tab {
+    padding: 17px 15px 17px 15px;
+  }
+  .main h3{
+    font-size: 12px;
+  }
+}

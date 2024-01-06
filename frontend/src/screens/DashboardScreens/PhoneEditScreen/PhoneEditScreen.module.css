@@ -1,0 +1,53 @@
+.main {
+  width: 100%;
+  height: 92vh;
+  padding: 40px 30px 0px 60px;
+}
+.form {
+  width: 100%;
+}
+.row,
+.buttonRow {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 35px;
+}
+.buttonRow {
+  padding-top: 20px;
+  gap: 20px;
+}
+.formGroup {
+  width: 38%;
+}
+.formGroup input {
+  border-radius: 3px;
+  width: 100%;
+}
+.formGroup input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #2d8fc5;
+}
+.formGroup input::placeholder {
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+}
+.formGroup label {
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+}
+.buttonRow button {
+  width: 220px;
+}
+.form button {
+  background-color: #2ec0be;
+  color: white;
+  border: none;
+}
+.form button:hover {
+  background-color: #2a9e9c;
+}

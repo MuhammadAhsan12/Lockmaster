@@ -1,0 +1,47 @@
+.table td,
+tr,
+th {
+  font-family: "Mulish", sans-serif;
+  cursor: pointer;
+}
+.action select {
+  border: none;
+  font-family: "Mulish", sans-serif;
+  cursor: pointer;
+  background-color: transparent;
+}
+.action select:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.checkBox input {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #dbdbdb;
+}
+.checkBox {
+  width: 10%;
+}
+.id {
+  width: 22%;
+}
+.amount {
+  width: 22%;
+}
+.status {
+  width: 35%;
+}
+@media (max-width: 1300px) {
+  .id {
+    width: 25%;
+  }
+  .amount {
+    width: 25%;
+  }
+  .status {
+    width: 32%;
+  }
+}

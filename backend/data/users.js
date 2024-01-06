@@ -1,0 +1,90 @@
+import bcrypt from "bcryptjs";
+import { generateOTP } from "../helpers/helpers.js";
+
+const users = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    email: "ahmed@sourceignite.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+22 7815564969",
+    isAdmin: true,
+    status: "active",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+  {
+    firstName: "Michael",
+    lastName: "Knight",
+    email: "as833972@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+408 3315564969",
+    status: "active",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+  {
+    firstName: "Mark",
+    lastName: "Wick",
+    email: "as830@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+223 1215562219",
+    status: "pending",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+  {
+    firstName: "Tony",
+    lastName: "Danza",
+    email: "as833@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+11 5433564969",
+    status: "active",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+  {
+    firstName: "Cooper",
+    lastName: "Philips",
+    email: "aq11@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+12 855564969",
+    status: "pending",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+
+  {
+    firstName: "Mike",
+    lastName: "Torello",
+    email: "eet33d@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+887 587564969",
+    status: "active",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+  {
+    firstName: "Mark",
+    lastName: "Wick",
+    email: "pki3e4@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+19 1215562219",
+    status: "pending",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+  {
+    firstName: "Tony",
+    lastName: "Danza",
+    email: "vfv556@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+121 093564969",
+    status: "active",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+  {
+    firstName: "Cooper",
+    lastName: "Philips",
+    email: "zzeve22e@gmail.com",
+    password: bcrypt.hashSync("123456", 10),
+    phoneNum: "+71 018264969",
+    status: "pending",
+    rec_code: `R${generateOTP(4)}L`,
+  },
+];
+
+export default users;

@@ -1,0 +1,48 @@
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 40px 0px 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+.main h1 {
+  text-align: start;
+  align-self: flex-start;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 30px;
+}
+.head h1{
+    font-weight: 900;
+}
+.tab {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  user-select: none;
+}
+.tab h3 {
+  align-self: flex-start;
+  text-align: start;
+  cursor: pointer;
+}
+.tabActive {
+  color: #3f9ec9;
+}
+.body {
+  width: 100%;
+  max-height: 620px;
+  overflow-y: scroll;
+  padding-right: 30px;
+}
